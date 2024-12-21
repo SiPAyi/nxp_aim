@@ -1,2 +1,14 @@
-# nxp_aim
-this repository contains the code we used on the buggy used in nxp grand-finale
+# NXP AIM Grand Finale Repository
+
+This repository contains the code we used on the buggy for the NXP Grand Finale competition.
+
+## Packages Overview
+
+### 1. **b3rb_ros_line_follower**
+This package contains the Python nodes and a YOLOv5n-INT8 model. It processes inputs from the camera and LiDAR to:
+- Generate edge vectors.
+- Detect and classify traffic signs.
+- Compute speed and turn values for the buggy.
+
+### 2. **synapse_msgs**
+This package defines custom message types for communication between the nodes.
