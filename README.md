@@ -12,3 +12,5 @@ This package contains the Python nodes and a YOLOv5n-INT8 model. It processes in
 
 ### 2. **synapse_msgs**
 This package defines custom message types for communication between the nodes.
+
+For installation setup, visit [NXP AIM Setup Installation Guide](https://nxp.gitbook.io/nxp-aim/installation-of-nxp-aim-setup).
